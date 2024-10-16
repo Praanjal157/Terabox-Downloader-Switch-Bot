@@ -12,7 +12,7 @@ if len(bot_token) == 0:
     logging.error("BOT_TOKEN variable is missing! Exiting now")
     exit(1)
 
-app = Client(bot_token, "Jet-Terabox-Downloader-Switch-Bot 🚀❤️")
+app = Client(bot_token, "8188284857:AAGW_FZyCeabqgrQF51b-pvDazN0gU5hvbg ")
 
 aria2 = aria2p.API(
     aria2p.Client(
@@ -39,7 +39,7 @@ async def onStart(ctx: BotContext[CommandEvent]):
     await ctx.event.message.reply_text(
         f"Hi, {ctx.user.creator_name}!\nɪ ᴀᴍ ᴀ ᴛᴇʀᴀʙᴏx ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ʙᴏᴛ. sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʀᴀʙᴏx ʟɪɴᴋ ɪ ᴡɪʟʟ ᴅᴏᴡɴʟᴏᴀᴅ ᴡɪᴛʜɪɴ ғᴇᴡ sᴇᴄᴏɴᴅs ᴀɴᴅ sᴇɴᴅ ɪᴛ ᴛᴏ ʏᴏᴜ ✨.",
         inline_markup=InlineMarkup(
-            [[InlineKeyboardButton("ᴊᴏɪɴ ❤️🚀", url="https://myswitch.click/Asy3")],[InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚡️", url="https://telegram.me/hrishikesh2861")]]
+            [[InlineKeyboardButton("ᴊᴏɪɴ ❤️🚀", url="https://parrotdownloader")],[InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚡️", url="https://telegram.me/parrotdownloader")]]
         ),
     )
 
